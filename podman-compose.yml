@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: db-app
+    ports:
+      - "3306:3306"
+  java:
+    image: java-app
+    ports:
+      - "8080:8080"
